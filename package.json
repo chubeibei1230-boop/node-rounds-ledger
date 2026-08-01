@@ -1,0 +1,17 @@
+{
+  "name": "node-rounds-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "设备巡检轮次台账后端服务（Node.js + SQLite）",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --experimental-sqlite src/index.js",
+    "test": "node --experimental-sqlite --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
