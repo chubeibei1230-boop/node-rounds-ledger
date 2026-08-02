@@ -1,0 +1,16 @@
+{
+  "name": "rounds-ledger",
+  "version": "1.0.0",
+  "description": "设备巡检轮次台账服务，面向运维团队管理设备档案、巡检清单、计划轮次、异常复核和区域统计，重点考察 Node.js 后端分层、SQLite 持久化和流程约束。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "test": "node --experimental-sqlite --test test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}
